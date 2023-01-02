@@ -1,32 +1,3 @@
-[package]
-name = "futures-core"
-edition = "2018"
-version = "0.3.13"
-authors = ["Alex Crichton <alex@alexcrichton.com>"]
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/rust-lang/futures-rs"
-homepage = "https://rust-lang.github.io/futures-rs"
-documentation = "https://docs.rs/futures-core/0.3"
-description = """
-The core traits and types in for the `futures` library.
-"""
-
-[features]
-default = ["std"]
-std = ["alloc"]
-alloc = []
-
-# Unstable features
-# These features are outside of the normal semver guarantees and require the
-# `unstable` feature as an explicit opt-in to unstable API.
-unstable = []
-cfg-target-has-atomic = []
-
-[dependencies]
-
-[dev-dependencies]
-futures = { path = "../futures" }
-
-[package.metadata.docs.rs]
-all-features = true
-rustdoc-args = ["--cfg", "docsrs"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:65c3387c98caa81b7a01667e6538c462c349286d2e1d7d06a479a6d492ddd65c
+size 795
